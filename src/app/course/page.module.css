@@ -1,0 +1,38 @@
+.container{
+    width: 80%;
+    background-color: #ccc;
+    border: 3px solid #aaa;
+    height: 420px;
+    margin: 20px auto 5px auto;
+    box-shadow: 0 0 5px 10px yellow;
+}
+.menu{
+    width: 99%;
+    margin: 15px auto;
+    border: 3px solid #ccc;
+    box-shadow: 0 0 5px 3px #427;
+}
+.content{
+    padding: 10px;
+    color: #222;
+    border: 3px solid #ccc;
+    box-shadow: 0 0 5px 3px #427;
+    background:none;
+    width: 99%;
+    height: 360px;
+    margin: 10px auto;
+}
+.item{
+    margin: 0 5px;
+    font-weight: bold;
+    border: none;
+    background: none;
+    width: max-content;
+    height: 30px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.item:hover,.item:active{
+    color: black;
+    box-shadow: 0 0 5px 3px #2144dd;
+}

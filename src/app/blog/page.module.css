@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 0;
+}
+
+.imgContainer{
+    width: 300px;
+    height: 170px;
+    position: relative;
+}
+
+.img{
+    object-fit:fill;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: bold;
+}
+.desc{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+}

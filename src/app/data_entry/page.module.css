@@ -1,0 +1,16 @@
+.container{
+    box-shadow: 0 0 5px 3px #0c0eac;
+    border: 3px solid #344;
+    border-radius: 10px;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.rullEntry,.output{
+    width: 100%;
+    background-color: #35c28b;
+    border-radius: 10px;
+    padding: 20px;
+}
+

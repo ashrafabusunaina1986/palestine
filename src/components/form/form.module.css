@@ -1,0 +1,14 @@
+.container input,.container textarea {
+    padding: 10px;
+    margin: 5px;
+    background:none;
+    border: 3px solid #456;
+    width: 300px;
+}
+
+.display{
+    display: none;
+}
+.notdisplay{
+    display: inline-block;
+}

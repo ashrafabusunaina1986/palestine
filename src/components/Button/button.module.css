@@ -1,0 +1,8 @@
+.button{
+    width: max-content;
+    background-color: #35c28b;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 7px 3px #34c;
+}

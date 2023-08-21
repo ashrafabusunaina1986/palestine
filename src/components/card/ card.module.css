@@ -1,0 +1,25 @@
+.title{
+    display:inline-block;
+    margin: 0 20px;
+}
+
+
+.output{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #344;
+    border: 3px solid #567;
+    box-shadow: 0 0 5px 4px #e2ce15;
+    margin: 20px auto;
+    width: 98%;
+}
+.date{
+    box-shadow: 0 0 5px 3px rgb(76, 160, 243);
+    border: 2px solid #494949;
+    padding: 10px;
+    margin: 10px;
+}
+.message{
+    margin: 20px auto;
+}

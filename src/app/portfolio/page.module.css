@@ -1,0 +1,43 @@
+.container{
+    
+}
+.mainTitle{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.selectTitle{
+    margin: 10px 0;
+}
+
+.items{
+    display: flex;
+    gap: 100px;
+}
+
+.item:nth-child(1){
+    background: url(/illustrations.jpeg);
+}
+.item:nth-child(2){
+    background: url(/websites.jpeg);
+}
+.item:nth-child(3){
+    background: url(/aaps.jpeg);
+}
+
+.item{
+    border: 5px solid #456;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    width: 200px;
+    height: 220px;
+}
+.title{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(46, 66, 122);
+}

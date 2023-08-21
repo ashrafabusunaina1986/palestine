@@ -1,0 +1,51 @@
+.container {
+    
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px ;
+    align-items: center;
+}
+
+.imgContent{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 40%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.desc{
+    font-size: 14px;font-weight: 400;
+    text-align: justify;
+}
+
+
+.imgText{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.imgt{
+    border-radius: 50%;
+}
+
+.imgCont{
+    width: 450px;
+    height: 300px;
+    position: relative;
+}
+.img{
+    object-fit: contain;
+}
